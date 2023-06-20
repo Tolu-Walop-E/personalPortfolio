@@ -1,0 +1,349 @@
+
+.container{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(1,2.5fr);
+    grid-template-rows: 50px 250px 250px 125px;
+    
+}
+
+
+#header{
+    grid-area: 1/1/1/6;
+    background-color: navy;
+    color: white;
+    border: 3px solid black;
+    z-index: 500;;
+}
+
+#main{
+    grid-area: 2/1/4/6;
+    z-index: 500;
+    max-width: 50%;
+    
+}
+
+#description{
+    padding: 2%;
+    grid-area: 3/1/3/6;
+    font-size: 10pt;
+    z-index: 500;
+}
+
+.containerSkills{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(1,2.5fr);
+    grid-template-rows: 50px 250px 250px 125px;
+    
+}
+
+#skillspara{
+    padding: 2%;
+    grid-area:  2/2/3/2;
+    font-size: 10pt;
+    z-index: 500;
+}
+#python{ 
+    z-index: 500;
+    grid-area: 3/1/3/3;
+    max-width: 15%;
+}
+#css{
+    
+    z-index: 500;
+    grid-area: 3/1/3/2;
+
+}
+
+
+
+#html{
+    
+    z-index: 500;
+    grid-area: 3/1/3/2;
+}
+
+#java{
+    
+    z-index: 500;
+    grid-area: 2/1/3/3;
+    max-width: 10%;
+}
+
+#footer{
+    grid-area: 5/1/6/6;
+    background-color:lightblue;
+    z-index: 500;
+    border: 3px solid black;
+}
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: 50;
+    
+  }
+  #backImage {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 50;
+    opacity: 0.3;
+  }
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    color: black;
+    z-index: 500;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    z-index: 500;
+}
+
+h2{
+    padding: 0.5%;
+    margin-top: -4.5%;
+    background-color: green;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    z-index: 500;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: baseline;
+    font-size: 9pt;
+    
+
+}
+
+
+.containerEducation{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(1,2.5fr);
+    grid-template-rows: 50px 150px 150px 250px 125px;
+    
+}
+
+#woodhouse{
+    grid-area: 2/1/3/6;
+    z-index: 500;
+    
+}
+
+#qmul{
+    grid-area: 3/1/3/6;
+    
+    z-index: 500;
+   
+}
+
+
+#schoolPara{
+    grid-area: 4/1/5/3;
+    color: black;
+    z-index: 500;
+}
+
+.containerProjs{
+    display: grid;
+    vertical-align: middle;
+    list-style-type:none ;
+    grid-template-columns: repeat(1,2.5fr);
+    grid-template-rows: 50px 250px 250px 150px 125px;
+    
+}
+
+#greedIsland{
+    grid-area: 2/1/2/4;
+    z-index: 500;
+    max-width: 50%;
+    
+}
+
+#programPara{
+    grid-area: 3/1/4/3;
+    color: black;
+    z-index: 500;
+    font-size: 10pt;
+}
+
+#git{
+    grid-area: 4/1/5/3;
+    z-index: 500;
+    max-width: 20%;
+}
+
+
+
+
+
+img{
+    max-width: 70%;
+}
+
+.containerLog{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(1,2.5fr);
+    grid-template-rows: 50px 200px 250px 150px 125px;
+    
+}
+
+
+
+#bloglog{
+    grid-area: 3/1/4/5;
+    z-index: 500;
+    justify-content: center;
+    text-align:center;
+}
+
+#finalbuttons{
+    grid-area: 4/1/5/5;
+    z-index: 500;
+    justify-content: center;
+    text-align:center;
+    background-color: black;
+
+}
+#blogreg{
+    grid-area: 2/2/3/5;
+    z-index: 500;
+    
+    justify-content: center;
+    text-align:center;
+
+}
+
+#firstNameReg{
+    padding: 2pt;
+    background-color: lightblue;
+
+}
+
+#lastNameReg{
+    padding: 2pt;
+    background-color: lightgrey;
+
+
+}
+
+#email,#emailReg{
+    padding: 2pt;
+    background-color: lightblue;
+}
+
+#password,#passwordRegisterInput{
+    padding: 2pt;
+    background-color: lightblue;
+}
+
+
+
+#registration{
+    grid-area: 4/4/7/4;
+}
+
+.containerHub{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(2,2.5fr);
+    grid-template-rows: 50px 250px 150px;
+    text-align: center;
+    
+}
+
+#hubPara{
+    padding: 2%;
+    grid-area: 2/1/3/6;
+    font-size: 20pt;
+    z-index: 500;
+}
+
+
+.containerBlog{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+
+}
+
+
+.containerPost{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(1,2.5fr);
+    grid-template-rows: 50px 50px 350px 150px;
+    text-align: center;
+    
+}
+
+#addBlogTitle{
+    padding-top: 10%;
+    z-index: 500;
+    grid-area:2/1/3/5;
+
+}
+#postAdding{
+    
+    grid-area: 3/1/4/6;
+    z-index: 500;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#title{
+    background-color:white;
+    color:black;
+    grid-area: 3/1/4/4;
+    
+}
+#mainTitle{
+    max-width: 90%;
+}
+#blogtext1{
+    background-color:white;
+    color:black;
+    grid-area: 3/1/4/4;
+    
+
+}
+#mainText{
+    max-width: 90%;
+}
+#blogmainPost{
+    
+    text-align: center;
+    color: rebeccapurple;
+    grid-area: 2/2/3/5;
+    z-index: 500;
+    
+}
+#titlePad{
+    color:blue;
+    font-weight:bold;
+}
+
+
+           

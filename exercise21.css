@@ -1,0 +1,374 @@
+
+.container{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+
+.containerSkills{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+.containerEducation{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+.containerProjs{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+
+.containerLog{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+
+.containerHub{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+
+.containerBlog{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    
+}
+
+.containerPost{
+    display: grid;
+    list-style-type:none ;
+    grid-template-columns: repeat(5,2.5fr);
+    grid-template-rows:  100px 200px 150px 200px 100px;
+    gap:0.7rem;
+    z-index: 500;
+    
+}
+
+
+
+#header{
+    grid-area: 1/1/1/6;
+    padding: 2%;
+    background-color: navy;
+    color: white;
+    border: 3px solid black;
+    z-index: 500;;
+  
+}
+
+
+#description{
+    padding: 2%;
+    grid-area: 2/4/6/6;
+    font-size: 20pt;
+    z-index: 500;
+}
+
+
+
+#skillspara{
+    padding: 2%;
+    grid-area: 2/4/6/6;
+    font-size: 18pt;
+    z-index: 500;
+}
+
+#schoolPara{
+    padding: 2%;
+    grid-area: 2/4/6/6;
+    font-size: 18pt;
+    z-index: 500;
+}
+
+#programPara{
+    padding: 2%;
+    grid-area: 2/4/6/6;
+    font-size: 18pt;
+    z-index: 500;
+}
+
+#footer{
+    grid-area: 5/6/5/1;
+    padding: -250pt;
+    background-color:lightblue;
+    z-index: 500;
+    border: 3px solid black;
+    
+
+}
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: 50;
+    
+  }
+  #backImage {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 50;
+    opacity: 0.3;
+  }
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    color: black;
+    z-index: 500;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    z-index: 500;
+}
+
+h2{
+    padding: 0.5%;
+    margin-top: -4.5%;
+    background-color: green;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    z-index: 500;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: baseline;
+    
+
+}
+
+
+
+
+#python{
+    
+    z-index: 500;
+    grid-area: 2/1/2/2;
+}
+#css{
+    
+    z-index: 500;
+    grid-area: 2/2/2/2;
+}
+
+#html{
+    
+    z-index: 500;
+    grid-area: 3/1/3/2;
+}
+
+#java{
+    
+    z-index: 500;
+    grid-area: 3/2/3/2;
+}
+
+
+#woodhouse{
+    z-index: 500;
+    grid-area: 2/2/2/2;
+}
+
+#qmul{
+    z-index: 500;
+    grid-area: 4/2/4/2;
+}
+
+
+
+#postAdding{
+    
+    grid-area: 3/2/5/5;
+    z-index: 500;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#image1{
+    max-width: 250%;
+}
+
+#image0{
+    max-width: 250%;
+}
+
+img{
+    max-width: 70%;
+}
+
+#main{
+    
+    grid-area: 2/1/3/3;
+    z-index: 500;
+    
+}
+
+#experiencepara{
+    grid-area: 4/3/6/6;
+    font-size: 15pt;
+}
+
+#greedIsland{
+    grid-area: 2/1/5/3;
+    z-index: 500;
+}
+
+
+
+#git{
+    grid-area: 4/1/5/2;
+    z-index: 500;
+}
+
+#gitImage{
+    max-width: 150%;
+}
+
+#bloglog{
+    grid-area: 3/2/4/5;
+    z-index: 500;
+    justify-content: center;
+    text-align:center;
+}
+#blogreg{
+    grid-area: 2/2/3/5;
+    z-index: 500;
+    justify-content: center;
+    text-align:center;
+
+}
+
+#firstNameReg{
+    padding: 2pt;
+    background-color: lightblue;
+
+}
+
+#lastNameReg{
+    padding: 2pt;
+    background-color: lightgrey;
+
+
+}
+
+#email,#emailReg{
+    padding: 2pt;
+    background-color: lightblue;
+}
+
+#password,#passwordRegisterInput{
+    padding: 2pt;
+    background-color: lightblue;
+}
+
+#finalbuttons{
+    grid-area: 4/2/6/5;
+    z-index: 500;
+    justify-content: center;
+    text-align:center;
+
+}
+
+#submitbutton{
+
+    margin-top: 50pt;
+    background-color: lightcoral;
+
+}
+#addBlogTitle{
+    z-index: 500;
+    grid-area: 3/2/3/5;
+
+}
+
+
+#blogmainPost{
+    color: rebeccapurple;
+    grid-area: 2/2/3/5;
+    z-index: 500;
+    
+}
+#titlePad{
+    color:red;
+    font-weight:bold;
+    text-align: left;
+}
+#textPad{
+    background-color: white;
+    color:black;
+}
+
+#title{
+    padding: 5%;
+    
+}
+
+
+#registration{
+    grid-area: 4/4/7/4;
+}
+
+
+
+
+td,tr{
+    background-color: white;
+    color: black;
+    grid-area: 1/1/3/4;
+    z-index: 500;
+}
+
+#loginIcon{
+    grid-area: 4/1/6/1;
+}
+
+#loginImage{
+    max-width: 10%;
+}
+
+#hubPara{
+    padding: 2%;
+    grid-area: 2/2/3/6;
+    font-size: 20pt;
+    z-index: 500;
+    
+}
